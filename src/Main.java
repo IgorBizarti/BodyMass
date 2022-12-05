@@ -4,7 +4,7 @@ public class Main {
 
         BmiService service = new BmiService();
         double mass = 114;
-        double high = 192;
+        double high = 192 * 192;
         double MyWeight = service.calculate(mass, high);
 
         System.out.println(" Индекс избыточного веса " + MyWeight  );
